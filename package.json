@@ -1,0 +1,19 @@
+{
+  "name": "brickhack_2021",
+  "version": "1.0.0",
+  "description": "A tool for helping folks make a list of affordable recipes via the Wegman's API.",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saint-justin/brickhack-2021.git"
+  },
+  "author": "Brantley Wyche, Vicky Soler, Justin Vaughn, & Devin Mochrie",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/saint-justin/brickhack-2021/issues"
+  },
+  "homepage": "https://github.com/saint-justin/brickhack-2021#readme"
+}
