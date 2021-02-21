@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Genie's Feast</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <h1>Genie's Feast</h1>
+        <input type="checkbox" id="vegetarian" name="Vegetarian" value="Vegetarian">
+        <label for="vegetarian">Vegetarian</label><br>
+        <input type="checkbox" id="vegan" name="Vegan" value="Vegan">
+        <label for="vegan">Vegan</label><br>
+        <button id="button" onclick="getRecipe()">CLICK ME</button>
+        <div id="foodInfo">
+            <h1 id="mealName"></h1>
+            <h2 id="servings"></h2>
+            <a id="imageLink" href="">
+                <img id="mealImage" width="250px" alt="Image Of Your Meal">
+            </a>
+            <ul id="ingredientList">
+            </ul> 
+            <h2>Wegmans' Price:</h2>
+            <ul id="priceList">
+            </ul>
+            <hr>
+            <div id="totalPrice"></div>
+        </div>
+        <script src="logic.js"></script>
+    </body>
+</html>
